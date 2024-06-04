@@ -13,8 +13,9 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        {{-- <link rel="stylesheet" href="/build/assets/app-cNy9yCjt.css">
-        <link rel="stylesheet" href="/build/assets/app-Bg1aHGgo.js"> --}}
+        <link rel="stylesheet" href="{{asset('backend/css/style.css')}}">
+
+        <script src="{{asset('backend/js/main.js')}}"></script>
     </head>
     <body class="font-sans antialiased text-gray-900">
         <div class="flex flex-col items-center min-h-screen pt-6 bg-gray-100 sm:justify-center sm:pt-0">
